@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
 *{box-sizing: border-box;}
-body{ color: #191826; margin:0; padding: 0; font-family: 'IBM Plex Sans', sans-serif; background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-desktop.png);
+body{ color: #191826; margin:0; padding: 0; font-family: 'IBM Plex Sans', sans-serif; background-image: url(./images/bg-pattern-1.svg), url(./images/bg-main-desktop.png);
   background-repeat: no-repeat;
   background-position: right top, left top;
   background-size: 312px 468px, cover;}
@@ -15,7 +15,7 @@ a{ text-decoration: none; color: #191826}
 .title h1{ padding-top: 127px; font-size: 88px; line-height: 1;
 margin: 0;}  
 .title p{ padding: 40px 0 0 0; font-size: 20px; margin: 0;} 
-.content{ background: #000 url(../images/Group\ 8\ \(1\).png)no-repeat center/contain; max-width: 1110px; height: 600px;  margin: 0 auto; display: flex; color:#fff; margin-top: 320px; padding: 58px;}
+.content{ background: #000 url(./images/Group\ 8\ \(1\).png)no-repeat center/contain; max-width: 1110px; height: 600px;  margin: 0 auto; display: flex; color:#fff; margin-top: 320px; padding: 58px;}
 .content .phone{ margin-top: -265px; margin-left: 102px;}
 .content .phone img{ width: 312px; height: 642px;}
 .content .premium{ height: 625px; padding: 58px 59px 0 54px; background-color: #FA7453; border-radius: 12px; margin: 60px 0 0 155px;}
@@ -28,8 +28,8 @@ margin: 0;}
 .content .premium .ios:hover { background-color: #66E2DC;;}
 .content .premium .andro{ padding: 19px 76px 19px 100px; background-color: #FCFAF9; color: #191826; margin-bottom: 58px;}
 .content .premium .andro:hover{ background-color: #FFB964;}
-.content .premium a:before{ content: ""; position: absolute; top: 17px; left: 80px; background: url(../images/icon-apple.svg)no-repeat; width: 18px; height: 20px; }
-.content .premium a:last-child:before{ content: ""; position: absolute; top: 18px; left: 77px; background: url(../images/icon-android.svg)no-repeat; width: 18px; height: 20px; }
+.content .premium a:before{ content: ""; position: absolute; top: 17px; left: 80px; background: url(./images/icon-apple.svg)no-repeat; width: 18px; height: 20px; }
+.content .premium a:last-child:before{ content: ""; position: absolute; top: 18px; left: 77px; background: url(./images/icon-android.svg)no-repeat; width: 18px; height: 20px; }
 .footer{ margin-top: 200px; display: flex; align-items: flex-start; justify-content: flex-start;}
 .footer .logo{flex: 24.454%; }
 .footer .footer_content{ font-size: 16px; flex: 64.545%; }

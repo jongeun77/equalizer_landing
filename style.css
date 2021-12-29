@@ -7,6 +7,7 @@ body{ color: #191826; margin:0; padding: 0; font-family: 'IBM Plex Sans', sans-s
   background-position: right top, left top;
   background-size: 312px 468px, cover;}
 a{ text-decoration: none; color: #191826}
+
 .landing_wrap{  margin: 0 auto; max-width: 1440px;}
 .content_wrap{ padding: 0 165px;}
 .title{ padding-top: 60px; text-align: left;}
@@ -40,16 +41,18 @@ margin: 0;}
 .footer .sns a:hover { color: #FA7453; }
 
 @media screen and (max-width: 768px){ 
-
+  
   .landing_wrap{ width: 100%;}
   .content_wrap { padding: 0 40px;}
   .title { max-width: 520px;}
   .title h1 {font-size: 64px; padding-top: 95px;}
   .title p { font-size: 18px;}
+
   body{ color: #191826; margin:0; padding: 0; font-family: 'IBM Plex Sans', sans-serif; background-image: url(./images/bg-pattern-1.svg),url(./images/bg-main-desktop.png);
-  background-repeat: no-repeat;
-  background-position: right top, left top;
-  background-size: 266px 400px, 100%;}
+    background-repeat: no-repeat;
+    background-position: right top, left top;
+    background-size: 266px 400px, 100%;}
+  
   .content{ background-image: url(./images/Group\ 8\ \(1\).png);background-repeat: no-repeat;  background-color: #191826; 
     background-size: 280px 420px; background-position: right 165px top; margin-top: 320px; padding: 0; display: block; position: relative; }
   .content .phone{ margin-top: -70px; margin-left: 0;}

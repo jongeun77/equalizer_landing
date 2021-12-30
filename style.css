@@ -10,8 +10,8 @@ a{ text-decoration: none; color: #191826}
 
 .landing_wrap{  margin: 0 auto; max-width: 1440px;}
 .content_wrap{ padding: 0 165px;}
-.title{ padding-top: 60px; text-align: left;}
-.title span{  display: block; font-size: 20px; font-weight: bold;}
+.title{ padding-top: 40px; text-align: left;}
+.title span{ display: block; font-size: 20px; font-weight: bold;}
 .title h1{ padding-top: 127px; font-size: 88px; line-height: 1;
 margin: 0;}  
 .title p{ padding: 40px 0 0 0; font-size: 20px; margin: 0;} 
@@ -80,4 +80,41 @@ margin: 0;}
   .footer .sns a{ transition: all 0.3s;}
   .footer .sns a:hover { color: #FA7453; }
   .content .premium { margin: 60px 0 0 0;}
+}
+@media screen and ( max-width: 375px){
+
+  .landing_wrap{ width: 100%;}
+  .content_wrap { padding: 0;}
+  .title { max-width: 327px; padding: 0 24px; margin-right: 0;}
+  .title h1 {font-size: 40px; padding-top: 64px; line-height: 48px;}
+  .title p { font-size: 16px; padding: 25px 0 0 0; line-height: 26px;}
+  .title span { font-size: 30px; padding-top: 40px;}
+ 
+  body{ color: #191826; margin:0; padding: 0; font-family: 'IBM Plex Sans', sans-serif; background-image:url(./images/bg-main-desktop.png);
+    background-repeat: no-repeat; background-position: left top; background-size: 100%;}
+  .content{ background-image: url(./images/Group\ 8\ \(1\).png);background-repeat: no-repeat;  background-color: #191826; background-size: 300%; background-position: center top; padding: 0; height: 870px;}
+  .content .phone{ margin-top: -150px; margin-left: 0; text-align: center;}
+  .content .phone img{ width: 210px; height: 430px; margin-top: -110px; margin-left: 0; display: inline-block;}
+  .content .premium{ padding: 36px; width: 100%; position: static; top: 48px;  margin-top: 40px; height: 546px;}
+  .content .premium .title{ font-size: 32px; font-weight: 700; padding: 0;}
+  .content .premium .pre_content { font-size: 20px; padding: 15px 0 20px 0; line-height: 28px;}
+  .content .premium > a{ padding: 19px 47px; width: 100%;}
+  .content .premium .ios:hover { background-color: #66E2DC;;}
+  .content .premium .andro{ padding: 19px 76px 19px 100px; background-color: #FCFAF9; color: #191826; margin-bottom: 58px;}
+  .content .premium .andro:hover{ background-color: #FFB964;}
+  .content .premium a:before{  left: 59px; }
+  .content .premium a:last-child{ padding: 19px 47px;}
+  .content .premium a:last-child:before{ left: 42px;}
+  .footer{ margin-top: 64px; padding: 0 24px;}
+  .footer .footer_content{ font-size: 16px; float: none; }
+  .footer .footer_content p{ margin: 0; line-height: 26px;}
+  .footer .sns{ float: none; padding: 64px 0;}
+  .footer .sns a:nth-child(2){ margin: 0 20px;}
+  .footer .sns a{ transition: all 0.3s;}
+  .footer .sns a:hover { color: #FA7453; }
+  .content .premium { margin: 0 0 0 0;}
+
+
+
+
 }
